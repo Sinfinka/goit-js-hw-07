@@ -1,0 +1,13 @@
+.gallery {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.gallery-item {
+  width: calc(33.33% - 24px);
+  margin-bottom: 24px;
+}

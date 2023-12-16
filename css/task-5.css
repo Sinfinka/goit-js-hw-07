@@ -1,0 +1,26 @@
+.widget {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.widget p {
+  margin-bottom: 16px;
+  font-size: 48px;
+}
+
+.widget span {
+  font-family: monospace;
+}
+
+.widget button {
+  padding: 8px 12px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  border: none;
+  color: #fff;
+  transition: background-color 200ms ease-in-out;
+}
+.widget button:hover {
+  background-color: #6c8cff;
+}

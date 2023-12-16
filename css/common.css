@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -10,7 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
   color: #212121;
-  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 input {
@@ -23,13 +25,6 @@ button {
   cursor: pointer;
 }
 
-.gallery {
-  margin-top: 34px;
-  display: flex;
-  gap: calc((100% - 2 * 24px) / 3);
-  flex-wrap: wrap;
-}
-
-.gallery-item {
-  margin-top: 24px;
+ul {
+  list-style-type: none;
 }
